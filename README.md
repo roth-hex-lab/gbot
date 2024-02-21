@@ -9,7 +9,7 @@ Guidance for assemblable parts is a promising field for the use of augmented rea
 
 
 
-<a href="https://www.youtube.com/watch?v=ejXwf6FKQjc">
+<a href="https://www.youtube.com/watch?v=kzg_SJPDdwI">
 <p align="center">
  <img src="asset/teaser_proposal.png">
     <br> 

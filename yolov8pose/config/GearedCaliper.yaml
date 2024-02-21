@@ -1,0 +1,19 @@
+path: pose_and_state  # dataset root dir
+train: train/images  # train images (relative to 'path') 128 images
+val: val/images  # val images (relative to 'path') 128 images
+#test:  test/images # test images (optional)
+
+
+
+# Keypoints
+kpt_shape: [17, 3]  # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
+#flip_idx: [0, 2, 1, 4, 3, 6, 5, 8, 7, 10, 9, 12, 11, 14, 13, 16, 15]
+
+# Classes
+names:
+  0: Caliper_Fix
+  1: Caliper_Gear_1
+  2: Caliper_Gear_2
+  3: Caliper_Move_Bottom
+  4: Caliper_Move_Top_Vernier
+  5: Caliper_Roller

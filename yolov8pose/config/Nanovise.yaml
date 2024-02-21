@@ -1,0 +1,22 @@
+path: pose_and_state  # dataset root dir
+train: train/images  # train images (relative to 'path') 128 images
+val: val/images  # val images (relative to 'path') 128 images
+#test:  test/images # test images (optional)
+
+
+
+# Keypoints
+kpt_shape: [17, 3]  # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
+#flip_idx: [0, 2, 1, 4, 3, 6, 5, 8, 7, 10, 9, 12, 11, 14, 13, 16, 15]
+
+# Classes
+names:
+  0: NanoViseV2_CLAMP_BALLJOINT
+  1: NanoViseV2_CLAMP_BASE
+  2: NanoViseV2_CLAMP_HEADPLATE
+  3: NanoViseV2_CLAMP_NUT
+  4: NanoViseV2_CLAMP_SCREW
+  5: NanoViseV2_Connector
+  6: NanoViseV2_VISE_BASE
+  7: NanoViseV2_VISE_SCREW
+  8: NanoViseV2_VISE_SLIDER

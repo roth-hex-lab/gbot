@@ -9,6 +9,56 @@ Guidance for assemblable parts is a promising field for the use of augmented rea
 
 ![title](asset/teaser_proposal.png)
 
-## Object detection and 6D pose estimation
+## Synthetic Generation
+The first step is to install [BlenderProc](https://github.com/DLR-RM/BlenderProc).
+To install the local project:
 
-## 3D Object tracking
+    cd BlenderProc
+    pip install -e .
+
+Some additional packages are required but since BlendeProc runs in its own environment they have to be installed there.
+Use:
+
+    blenderproc pip install tqdm
+    blenderproc pip install rasterio
+
+Next step is to download the newest textures for the backgrounds:
+
+    python blenderproc download cc_textures resources/cctextures    
+
+Everything else what is needed is saved in the "Synthetic_data_generation/resources" folder.
+Now the synthetic data generation should be ready to run. See therefore the next two sections.
+
+Also if you want to debug see the "BlenderProc/README.md" file.
+
+### GBOT dataset
+
+## Object Detection and 6D Pose Estimation
+**1.** Install pytorch from https://pytorch.org/ by using the command provided there. Installation of pytorch before Ultralytics is important!
+
+**2.** Install YOLOv8 by using:
+
+    pip install ultralytics
+
+For further instructions see: https://github.com/ultralytics/ultralytics
+
+Additional packages will probably also be necessary but just install them based on their error message.
+
+**3.** Probably you have to change the yolo settings. Use in the command line:
+    
+    yolo settings
+
+to get the path where the settings are located and then change the "datasets_dir", "weights_dir" and "runs_dir" to your needs.
+Recommended where PATH_TO_PROJECT is the Path where the project is located on your machine:
+
+    datasets_dir: PATH_TO_GBOTdatasets
+    weights_dir: PATH_TO_PROJECT\yolov8\weights  
+    runs_dir: PATH_TO_PROJECT\yolov8\runs 
+
+**4.** Start training with the script "yolov8/yolov8_pose_training.py"
+
+**5.** Predict 6D object pose with YOLOv8
+ python yolov8pose/yolo_to_pose_prediction_cv2.py
+
+
+## 3D Object Tracking

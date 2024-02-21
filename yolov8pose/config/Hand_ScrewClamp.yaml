@@ -1,0 +1,23 @@
+path: pose_and_state  # dataset root dir
+train: train/images  # train images (relative to 'path') 128 images
+val: val/images  # val images (relative to 'path') 128 images
+#test:  test/images # test images (optional)
+
+
+
+# Keypoints
+kpt_shape: [17, 3]  # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
+#flip_idx: [0, 2, 1, 4, 3, 6, 5, 8, 7, 10, 9, 12, 11, 14, 13, 16, 15]
+
+# Classes
+names:
+  0: HS_Jaw1
+  1: HS_Jaw2
+  2: HS_Knob1
+  3: HS_Knob2
+  4: HS_Pad
+  5: HS_Pin
+  6: HS_SlidingHinge1
+  7: HS_SlidingHinge2
+  8: HS_Thread1
+  9: HS_Thread2

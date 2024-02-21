@@ -9,6 +9,16 @@ Guidance for assemblable parts is a promising field for the use of augmented rea
 
 ![title](asset/teaser_proposal.png)
 
+## Videos
+
+<a href="https://www.youtube.com/watch?v=ejXwf6FKQjc>
+<p align="center">
+ <img src="asset/teaser_proposal.png" width=600>
+    <br> 
+    <em>GBOT presentation</em>
+</p>
+</a>
+
 ## Synthetic Generation
 The first step is to install [BlenderProc](https://github.com/DLR-RM/BlenderProc).
 To install the local project:

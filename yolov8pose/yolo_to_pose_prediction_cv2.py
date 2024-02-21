@@ -22,7 +22,6 @@ def load_visualization_objects(models_path):
         filename_without_extension = Path(filename).stem.replace("_downsampled", "")
         # Lade das PLY-Modell
         assembly_models[filename_without_extension] = PlyData.read(full_path)
-        #assembly_model = PlyData.read("D:/students/2023-corell-niklas-mt_new/Synthetic_data_generation/resources/3Dprint/NanoViseV2/models/NanoViseV2_CLAMP_BASE.ply")
         vertices = np.array(assembly_models[filename_without_extension]['vertex'].data)
 
         # Skalierungsfaktoren für das 3D-Modell
@@ -54,7 +53,7 @@ def display_3d_model_on_image(rotation_matrix, translation, intrinsic_matrix, im
 
 
 def main():
-    model = YOLO("C:/Users/Student/Downloads/best.pt", task="pose")  # Continue Training, set resume in train method to True
+    model = YOLO("yolov8/pretrained/Nanovise/best.pt", task="pose")  # Continue Training, set resume in train method to True
 
     cam_port = 1
     image_width = 1280
@@ -64,7 +63,7 @@ def main():
     cam.set(cv2.CAP_PROP_FRAME_WIDTH, image_width)
     cam.set(cv2.CAP_PROP_FRAME_HEIGHT, image_height)
 
-    models_keypoints = load_model_keypoints("yolov8pose/models/NanoViseV2/Keypoints/Keypoints")
+    models_keypoints = load_model_keypoints("yolov8pose/models/NanoViseV2/Keypoints")
 
     intrinsic_matrix = load_camera_matrix("yolov8/our_camera.json")
 

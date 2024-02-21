@@ -56,11 +56,24 @@ Recommended where PATH_TO_PROJECT is the Path where the project is located on yo
     weights_dir: PATH_TO_PROJECT\yolov8\weights  
     runs_dir: PATH_TO_PROJECT\yolov8\runs 
 
-**4.** Start training with the script:
+**4.** Start training with the script (You can skip this step if you want to use our pretrained models):
 
  python yolov8/yolov8_pose_training.py
 
+ Export the model into onnx format:
+
+  from ultralytics import YOLO
+  # Load a model
+  model = YOLO('yolov8pose.pt')  # load an official model
+  model = YOLO('path/to/best.pt')  # load a custom trained model
+
+  # Export the model
+  model.export(format='onnx')
+
 **5.** Predict 6D object pose with YOLOv8
+
+Download our [pretrained models](https://zenodo.org/records/10688659) in onnx format. 
+save the pretrained models in the folder: yolov8pose/pretrained
 
  python yolov8pose/yolo_to_pose_prediction_cv2.py
 

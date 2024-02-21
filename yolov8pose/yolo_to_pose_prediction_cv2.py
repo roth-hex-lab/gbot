@@ -53,7 +53,7 @@ def display_3d_model_on_image(rotation_matrix, translation, intrinsic_matrix, im
 
 
 def main():
-    model = YOLO("yolov8/pretrained/Nanovise/best.pt", task="pose")  # Continue Training, set resume in train method to True
+    model = YOLO("yolov8/pretrained/NanoViseV2/NanoViseV2.onnx", task="pose")  # Continue Training, set resume in train method to True
 
     cam_port = 1
     image_width = 1280

@@ -8,11 +8,10 @@
 Guidance for assemblable parts is a promising field for the use of augmented reality. Augmented reality assembly guidance requires 6D object poses of target objects in real-time. Especially in time-critical medical or industrial settings, continuous and markerless tracking of individual parts is essential to visualize instructions superimposed on or next to the target object parts. In this regard, occlusions by the user's hand or other objects as well as the complexity of different assembly states complicate robust and real-time markerless multi-object tracking. 
 
 
-## Videos
 
 <a href="https://www.youtube.com/watch?v=ejXwf6FKQjc">
 <p align="center">
- <img src="asset/teaser_proposal.png" width=600>
+ <img src="asset/teaser_proposal.png">
     <br> 
     <em>GBOT presentation</em>
 </p>

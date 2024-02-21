@@ -62,13 +62,10 @@ Recommended where PATH_TO_PROJECT is the Path where the project is located on yo
 
  Export the model into onnx format:
 
-  from ultralytics import YOLO
-  # Load a model
-  model = YOLO('yolov8pose.pt')  # load an official model
-  model = YOLO('path/to/best.pt')  # load a custom trained model
-
-  # Export the model
-  model.export(format='onnx')
+    from ultralytics import YOLO
+    model = YOLO('yolov8pose.pt')  # load an official model
+    model = YOLO('path/to/best.pt')  # load a custom trained model
+    model.export(format='onnx')
 
 **5.** Predict 6D object pose with YOLOv8
 

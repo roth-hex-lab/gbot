@@ -9,7 +9,7 @@ from numba import njit
 
 from plyfile import PlyData, PlyElement
 
-from Evaluation.pnp import *
+from pnp import *
 
 from visulisation_helper_functions import *
 
@@ -68,7 +68,7 @@ def main():
 
     intrinsic_matrix = load_camera_matrix("yolov8/our_camera.json")
 
-    scaled_vertices, assembly_models = load_visualization_objects("../extrem_downsampled_models_for_visualization")
+    scaled_vertices, assembly_models = load_visualization_objects("yolov8/extrem_downsampled_models_for_visualization")
 
     while not keyboard.is_pressed("esc"):
 

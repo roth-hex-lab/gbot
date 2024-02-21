@@ -56,9 +56,12 @@ Recommended where PATH_TO_PROJECT is the Path where the project is located on yo
     weights_dir: PATH_TO_PROJECT\yolov8\weights  
     runs_dir: PATH_TO_PROJECT\yolov8\runs 
 
-**4.** Start training with the script "yolov8/yolov8_pose_training.py"
+**4.** Start training with the script:
+
+ python yolov8/yolov8_pose_training.py
 
 **5.** Predict 6D object pose with YOLOv8
+
  python yolov8pose/yolo_to_pose_prediction_cv2.py
 
 

@@ -58,9 +58,11 @@ Recommended where PATH_TO_PROJECT is the Path where the project is located on yo
 
 **4.** Start training with the script (You can skip this step if you want to use our pretrained models):
 
- python yolov8/yolov8_pose_training.py
+Train 6D object pose estimator with YOLOv8pose:
 
- Export the model into onnx format:
+    python yolov8/yolov8_pose_training.py
+
+ After the training, export the model into onnx format:
 
     from ultralytics import YOLO
     model = YOLO('yolov8pose.pt')  # load an official model
@@ -71,7 +73,9 @@ Recommended where PATH_TO_PROJECT is the Path where the project is located on yo
 
 Download our [pretrained models](https://zenodo.org/records/10688659) in onnx format and save the pretrained models in the folder: yolov8pose/pretrained
 
- python yolov8pose/yolo_to_pose_prediction_cv2.py
+You can predict 6D object poses with the script:
+
+    python yolov8pose/yolo_to_pose_prediction_cv2.py
 
 
 ## 3D Object Tracking

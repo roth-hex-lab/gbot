@@ -64,9 +64,9 @@ def main():
     cam.set(cv2.CAP_PROP_FRAME_WIDTH, image_width)
     cam.set(cv2.CAP_PROP_FRAME_HEIGHT, image_height)
 
-    models_keypoints = load_model_keypoints("../../Synthetic_data_generation/resources/3Dprint/NanoViseV2/Keypoints")
+    models_keypoints = load_model_keypoints("yolov8pose/models/NanoViseV2/Keypoints/Keypoints")
 
-    intrinsic_matrix = load_camera_matrix("../../Synthetic_data_generation/our_camera.json")
+    intrinsic_matrix = load_camera_matrix("yolov8/our_camera.json")
 
     scaled_vertices, assembly_models = load_visualization_objects("../extrem_downsampled_models_for_visualization")
 

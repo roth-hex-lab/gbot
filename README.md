@@ -44,6 +44,11 @@ Also if you want to debug see the "BlenderProc/README.md" file.
 
 [Training data - Part 2](https://zenodo.org/records/10711596)
 
+[Training data - Part 3](https://zenodo.org/records/10712475)
+
+[Test data](https://zenodo.org/records/10712703)
+
+
 ## Object Detection and 6D Pose Estimation
 **1.** Install pytorch from https://pytorch.org/ by using the command provided there. Installation of pytorch before Ultralytics is important!
 

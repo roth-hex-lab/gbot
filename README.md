@@ -41,6 +41,7 @@ Also if you want to debug see the "BlenderProc/README.md" file.
 
 ## GBOT dataset
 [Training data - Part 1](https://zenodo.org/records/10710192)
+[Training data - Part 2](https://zenodo.org/records/10711596)
 
 ## Object Detection and 6D Pose Estimation
 **1.** Install pytorch from https://pytorch.org/ by using the command provided there. Installation of pytorch before Ultralytics is important!

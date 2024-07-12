@@ -6,12 +6,12 @@
 
 int main() {
   // Directories
-  std::filesystem::path dataset_directory{"D:/PhD/shiyu/KARVIMIO/GBOT_dataset"};
-  std::filesystem::path external_directory{"D:/PhD/shiyu/KARVIMIO/GBOT_dataset/GBOT_dataset/external"};
-  std::filesystem::path result_path{"D:/PhD/shiyu/KARVIMIO/GBOT_dataset/NanoViseV2/result.csv"};
+  std::filesystem::path dataset_directory{"path2your/GBOT_dataset"};
+  std::filesystem::path external_directory{"path2your/GBOT_dataset/GBOT_dataset/external"};
+  std::filesystem::path result_path{"path2your/GBOT_dataset/NanoViseV2/result.csv"};
   std::filesystem::path result_pose_path{
-      "D:/PhD/shiyu/KARVIMIO/GBOT_dataset/NanoViseV2/test/YOLOrealcluster_assembly-test.csv"};
-  std::string engine_file_path = "D:/PhD/shiyu/KARVIMIO/GBOT_dataset/NanoViseV2/model/yolo/weights";
+      "path2your/GBOT_dataset/NanoViseV2/test/YOLOrealcluster_assembly-test.csv"};
+  std::string engine_file_path = "path2your/GBOT_dataset/NanoViseV2/model/yolo/weights";
 
 
   // Dataset configuration

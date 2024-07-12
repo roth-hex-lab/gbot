@@ -23,28 +23,6 @@ Guidance for assemblable parts is a promising field for the use of augmented rea
 </p>
 </a>
 
-## Synthetic Generation
-The first step is to install [BlenderProc](https://github.com/DLR-RM/BlenderProc).
-To install the local project:
-
-    cd BlenderProc
-    pip install -e .
-
-Some additional packages are required but since BlendeProc runs in its own environment they have to be installed there.
-Use:
-
-    blenderproc pip install tqdm
-    blenderproc pip install rasterio
-
-Next step is to download the newest textures for the backgrounds:
-
-    python blenderproc download cc_textures resources/cctextures    
-
-Everything else what is needed is saved in the "Synthetic_data_generation/resources" folder.
-Now the synthetic data generation should be ready to run. See therefore the next two sections.
-
-Also if you want to debug see the "BlenderProc/README.md" file.
-
 ## GBOT dataset
 [Training data - Part 1](https://zenodo.org/records/10710192)
 

@@ -8,7 +8,7 @@
 
 ## Publication
 
-Official code of paper [GBOT: Graph-Based 3D Object Tracking for Augmented Reality-Assisted Assembly Guidance]([https://ieeexplore.ieee.org/document/10494181])
+Official code of paper [GBOT: Graph-Based 3D Object Tracking for Augmented Reality-Assisted Assembly Guidance](https://ieeexplore.ieee.org/document/10494181)
 
 ## Introduction
 Guidance for assemblable parts is a promising field for the use of augmented reality. Augmented reality assembly guidance requires 6D object poses of target objects in real-time. Especially in time-critical medical or industrial settings, continuous and markerless tracking of individual parts is essential to visualize instructions superimposed on or next to the target object parts. In this regard, occlusions by the user's hand or other objects as well as the complexity of different assembly states complicate robust and real-time markerless multi-object tracking. 

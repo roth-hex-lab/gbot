@@ -5,6 +5,7 @@
     <a href="https://arxiv.org/abs/2402.07677" target="_blank">
     <img src="https://img.shields.io/badge/arxiv-%23B31B1B.svg?&style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper arXiv"></a>
 </div>
+
 ## Publication
 
 Official code of paper [GBOT: Graph-Based 3D Object Tracking for Augmented Reality-Assisted Assembly Guidance]([https://ieeexplore.ieee.org/document/10494181])

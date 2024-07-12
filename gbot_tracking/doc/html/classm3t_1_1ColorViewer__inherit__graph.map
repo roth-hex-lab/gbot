@@ -1,0 +1,9 @@
+<map id="m3t::ColorViewer" name="m3t::ColorViewer">
+<area shape="rect" id="Node000001" title="Abstract Viewer class that defines a color viewer." alt="" coords="114,80,234,107"/>
+<area shape="rect" id="Node000003" href="$classm3t_1_1ImageColorViewer.html" title="Viewer that displays color images from a ColorCamera." alt="" coords="5,155,161,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,118,100,156,97,152,145,114"/>
+<area shape="rect" id="Node000004" href="$classm3t_1_1NormalColorViewer.html" title="Viewer that overlays color images from a ColorCamera with normal renderings based on the geometry sto..." alt="" coords="185,155,346,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="203,114,251,152,248,156,199,118"/>
+<area shape="rect" id="Node000002" href="$classm3t_1_1Viewer.html" title="Abstract class that defines a viewer and functionality to view and save images." alt="" coords="129,5,219,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,47,176,80,171,80,171,47"/>
+</map>

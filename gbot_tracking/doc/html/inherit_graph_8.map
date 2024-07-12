@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classm3t_1_1Detector.html" title="Abstract class that is able to set the poses of Link and Body objects assigned to a referenced Optimi..." alt="" coords="5,31,106,57"/>
+<area shape="rect" id="Node000001" href="$classm3t_1_1ManualDetector.html" title="Detector that allows a user to select 4 points in the image and that, based on those points,..." alt="" coords="154,5,296,32"/>
+<area shape="poly" id="edge9_Node000000_Node000001" title=" " alt="" coords="120,32,153,27,154,32,121,37"/>
+<area shape="rect" id="Node000002" href="$classm3t_1_1StaticDetector.html" title="Detector that sets the pose of all Link and Body objects referenced by a single Optimizer object base..." alt="" coords="158,56,292,83"/>
+<area shape="poly" id="edge10_Node000000_Node000002" title=" " alt="" coords="121,51,158,57,157,62,120,56"/>
+</map>

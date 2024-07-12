@@ -1,0 +1,5 @@
+<map id="m3t::RegionModel" name="m3t::RegionModel">
+<area shape="rect" id="Node000001" title="Model that holds a Sparse Viewpoint Model that is generated from a Body and that is used by the Regio..." alt="" coords="5,80,132,107"/>
+<area shape="rect" id="Node000002" href="$classm3t_1_1Model.html" title="Abstract class that precomputes and stores geometric information from Body objects that is required b..." alt="" coords="25,5,112,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,47,71,80,66,80,66,47"/>
+</map>

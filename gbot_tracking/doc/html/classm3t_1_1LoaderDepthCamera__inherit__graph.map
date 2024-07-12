@@ -1,0 +1,7 @@
+<map id="m3t::LoaderDepthCamera" name="m3t::LoaderDepthCamera">
+<area shape="rect" id="Node000001" title="Camera that allows loading depth images from a directory." alt="" coords="5,155,175,181"/>
+<area shape="rect" id="Node000002" href="$classm3t_1_1DepthCamera.html" title="Abstract Camera class that defines a depth camera that, in addition to intrinsics,..." alt="" coords="25,80,155,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,122,93,154,87,154,87,122"/>
+<area shape="rect" id="Node000003" href="$classm3t_1_1Camera.html" title="Abstract class that provides images to other components and contains intrinsics as well as the pose o..." alt="" coords="42,5,138,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,47,93,80,87,80,87,47"/>
+</map>

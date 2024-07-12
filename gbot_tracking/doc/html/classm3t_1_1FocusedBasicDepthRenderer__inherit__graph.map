@@ -1,0 +1,9 @@
+<map id="m3t::FocusedBasicDepthRenderer" name="m3t::FocusedBasicDepthRenderer">
+<area shape="rect" id="Node000001" title="Renderer that extends the focused depth renderer class with functionality from BasicDepthRendererCore..." alt="" coords="5,229,226,256"/>
+<area shape="rect" id="Node000002" href="$classm3t_1_1FocusedDepthRenderer.html" title="Abstract Renderer class that defines a focused depth renderer that extends the FocusedRenderer class ..." alt="" coords="22,155,209,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,196,118,229,113,229,113,196"/>
+<area shape="rect" id="Node000003" href="$classm3t_1_1FocusedRenderer.html" title="Abstract Renderer class that defines a focused renderer that crops and scales the scene to focus on r..." alt="" coords="39,80,192,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,122,118,154,113,154,113,122"/>
+<area shape="rect" id="Node000004" href="$classm3t_1_1Renderer.html" title="Abstract class that defines a renderer as a single camera at a defined location." alt="" coords="64,5,167,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="118,47,118,80,113,80,113,47"/>
+</map>

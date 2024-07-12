@@ -1,0 +1,5 @@
+<map id="m3t::TextureModality" name="m3t::TextureModality">
+<area shape="rect" id="Node000001" title="Modality class that implements a texture&#45;based modality, which uses information from a ColorCamera to..." alt="" coords="5,80,149,107"/>
+<area shape="rect" id="Node000002" href="$classm3t_1_1Modality.html" title="Abstract class that considers information from a Camera to calculate the gradient vector and Hessian ..." alt="" coords="27,5,127,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,47,80,80,74,80,74,47"/>
+</map>

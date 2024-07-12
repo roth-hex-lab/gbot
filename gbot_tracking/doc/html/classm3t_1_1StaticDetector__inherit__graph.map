@@ -1,0 +1,5 @@
+<map id="m3t::StaticDetector" name="m3t::StaticDetector">
+<area shape="rect" id="Node000001" title="Detector that sets the pose of all Link and Body objects referenced by a single Optimizer object base..." alt="" coords="5,80,140,107"/>
+<area shape="rect" id="Node000002" href="$classm3t_1_1Detector.html" title="Abstract class that is able to set the poses of Link and Body objects assigned to a referenced Optimi..." alt="" coords="22,5,123,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,47,75,80,70,80,70,47"/>
+</map>

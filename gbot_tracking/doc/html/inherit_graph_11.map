@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classm3t_1_1Modality.html" title="Abstract class that considers information from a Camera to calculate the gradient vector and Hessian ..." alt="" coords="5,56,106,83"/>
+<area shape="rect" id="Node000001" href="$classm3t_1_1DepthModality.html" title="Modality class that implements a depth&#45;based modality, which uses information from a DepthCamera and ..." alt="" coords="158,5,293,32"/>
+<area shape="poly" id="edge11_Node000000_Node000001" title=" " alt="" coords="116,49,177,30,179,35,117,54"/>
+<area shape="rect" id="Node000002" href="$classm3t_1_1RegionModality.html" title="Modality class that implements a region&#45;based modality, which uses information from a ColorCamera and..." alt="" coords="155,56,296,83"/>
+<area shape="poly" id="edge12_Node000000_Node000002" title=" " alt="" coords="120,67,155,67,155,72,120,72"/>
+<area shape="rect" id="Node000003" href="$classm3t_1_1TextureModality.html" title="Modality class that implements a texture&#45;based modality, which uses information from a ColorCamera to..." alt="" coords="154,107,297,133"/>
+<area shape="poly" id="edge13_Node000000_Node000003" title=" " alt="" coords="117,85,179,104,177,109,116,90"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="m3t::DepthModality" name="m3t::DepthModality">
+<area shape="rect" id="Node000001" title="Modality class that implements a depth&#45;based modality, which uses information from a DepthCamera and ..." alt="" coords="5,80,140,107"/>
+<area shape="rect" id="Node000002" href="$classm3t_1_1Modality.html" title="Abstract class that considers information from a Camera to calculate the gradient vector and Hessian ..." alt="" coords="22,5,123,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,47,75,80,70,80,70,47"/>
+</map>

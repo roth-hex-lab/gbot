@@ -1,0 +1,7 @@
+<map id="m3t::RealSenseDepthCamera" name="m3t::RealSenseDepthCamera">
+<area shape="rect" id="Node000001" title="Camera that allows getting depth images from a RealSense camera." alt="" coords="5,155,199,181"/>
+<area shape="rect" id="Node000002" href="$classm3t_1_1DepthCamera.html" title="Abstract Camera class that defines a depth camera that, in addition to intrinsics,..." alt="" coords="37,80,167,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,122,105,154,99,154,99,122"/>
+<area shape="rect" id="Node000003" href="$classm3t_1_1Camera.html" title="Abstract class that provides images to other components and contains intrinsics as well as the pose o..." alt="" coords="54,5,150,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,47,105,80,99,80,99,47"/>
+</map>

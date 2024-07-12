@@ -1,0 +1,7 @@
+<map id="m3t::RealSenseColorCamera" name="m3t::RealSenseColorCamera">
+<area shape="rect" id="Node000001" title="Camera that allows getting color images from a RealSense camera." alt="" coords="5,155,195,181"/>
+<area shape="rect" id="Node000002" href="$classm3t_1_1ColorCamera.html" title="Abstract Camera class that defines a color camera." alt="" coords="37,80,163,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,122,103,154,97,154,97,122"/>
+<area shape="rect" id="Node000003" href="$classm3t_1_1Camera.html" title="Abstract class that provides images to other components and contains intrinsics as well as the pose o..." alt="" coords="52,5,148,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="103,47,103,80,97,80,97,47"/>
+</map>

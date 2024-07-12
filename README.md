@@ -100,7 +100,13 @@ Use [CMake](https://cmake.org/) to build the library from source. The following 
 [Restful API]: https://github.com/Corvusoft/restbed
 
 ## Evaluation
-The code in `gbot_tracking/examples/evaluate_gbot_dataset.cpp` contains file for evaluation.
+The code in `gbot_tracking/examples/evaluate_gbot_dataset.cpp` contains file for model inference and tracking, results of 6D pose will be saved to result_pose_path according to your setting.
+
+We use bop toolkit to evaluate the final results, please install bop toolkit from https://github.com/thodan/bop_toolkit.
+
+Evaluate accuracy of 6d pose run: python evaluation/eval_calc_errors.py
+
+Visualize estimated pose run: python evaluation/vis_est_poses.py
 
 ## Demo
 The code in `gbot_tracking/examples/run_assembly_demo.cpp` contains file for real-time demo.

@@ -105,9 +105,11 @@ The code in `gbot_tracking/examples/evaluate_gbot_dataset.cpp` contains file for
 We use bop toolkit to evaluate the final results, please install bop toolkit from https://github.com/thodan/bop_toolkit.
 
 Evaluate accuracy of 6d pose run: 
+
     python evaluation/eval_calc_errors.py
 
 Visualize estimated pose run: 
+
     python evaluation/vis_est_poses.py
 
 ## Demo

@@ -114,3 +114,24 @@ Visualize estimated pose run:
 
 ## Demo
 The code in `gbot_tracking/examples/run_assembly_demo.cpp` contains file for real-time demo.
+
+## Acknowledgement
+
+We sincerely thank [YOLOv8](https://github.com/ultralytics/ultralytics), [m3t](https://github.com/DLR-RM/3DObjectTracking/tree/master/M3T) for providing their wonderful code to the community!
+
+## Citations
+If you find GBOT is useful in your research or applications, please consider giving us a star 🌟 and citing it.
+
+```bibtex
+@inproceedings{li2024gbot,
+  title={GBOT: graph-based 3D object tracking for augmented reality-assisted assembly guidance},
+  author={Li, Shiyu and Schieber, Hannah and Corell, Niklas and Egger, Bernhard and Kreimeier, Julian and Roth, Daniel},
+  booktitle={2024 IEEE Conference Virtual Reality and 3D User Interfaces (VR)},
+  pages={513--523},
+  year={2024},
+  organization={IEEE}
+}
+```
+
+## Licence
+GBOT is under the MIT Licence and is supported for commercial usage. If you need a commercial license for GBOT, please feel free to contact us.
